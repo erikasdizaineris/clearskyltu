@@ -22,3 +22,4 @@ jobs:
           script: |
             cd /home/erikas/projects/clearskyltu
             ./deploy.sh
+          strict_host_key_checking: false
